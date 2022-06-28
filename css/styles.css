@@ -19,6 +19,14 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+.btn-primary {
+  padding: 1em 2.5em;
+  background: transparent;
+  border: 1px solid hsl(321deg, 100%, 78%);
+  color: hsl(321deg, 100%, 78%);
+  border-radius: 2em;
+}
+
 header {
   height: 20vh;
   padding: 0 3em;

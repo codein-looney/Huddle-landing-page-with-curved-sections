@@ -1,0 +1,10 @@
+@use '../sass-utils/variables' as *;
+
+.btn-primary {
+    padding: 1em 2.5em;
+    background: transparent;
+    border: 1px solid $Light-Pink;;
+    // font-size: .7rem;
+    color: $Light-Pink;
+    border-radius: 2em;
+}
