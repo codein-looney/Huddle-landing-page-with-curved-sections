@@ -20,11 +20,29 @@ h6 {
 }
 
 .btn-primary {
-  padding: 1em 2.5em;
+  padding: 0.5em 2em;
   background: transparent;
   border: 1px solid hsl(321deg, 100%, 78%);
+  font-size: 0.8rem;
   color: hsl(321deg, 100%, 78%);
   border-radius: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hero {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  outline: 1px solid red;
+}
+.hero .hero-content {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  outline: 1px solid red;
 }
 
 header {
@@ -34,7 +52,6 @@ header {
   justify-content: center;
   justify-content: space-between;
   align-items: center;
-  outline: 1px solid red;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+.hero {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    outline: 1px solid red; // TEST
+
+    .hero-content {
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+        outline: 1px solid red; // TEST
+
+    }
+
+}
