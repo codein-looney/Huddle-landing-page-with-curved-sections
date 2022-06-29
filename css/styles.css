@@ -31,11 +31,11 @@ h6 {
 }
 
 .hero {
-  height: 50vh;
+  height: 100vh;
   display: flex;
-  align-items: center;
   text-align: center;
   justify-content: center;
+  overflow: hidden;
   outline: 1px solid red;
 }
 .hero .hero-content {
@@ -43,6 +43,11 @@ h6 {
   gap: 1em;
   flex-direction: column;
   outline: 1px solid red;
+  position: relative;
+  top: 20%;
+}
+.hero .hero-content .hero-title {
+  font-size: 3em;
 }
 
 header {
