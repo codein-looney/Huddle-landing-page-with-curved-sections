@@ -3,10 +3,26 @@
 .btn-primary {
     padding: .5em 2em;
     background: transparent;
-    border: 1px solid $Light-Pink;;
-    font-size: .8rem;
+    border: 1px solid $Light-Pink;
     color: $Light-Pink;
     border-radius: 2em;
     text-decoration: none;
     cursor: pointer;
+}
+
+.hero-btn {
+    margin: 1.2em auto;
+    width: 27%;
+    padding: 1.3em;
+    border-radius: 2.5em;
+    font-size: 1.3em;
+    color: white;
+    border: none;
+    background-color: $Pink;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .8;
+    }
 }

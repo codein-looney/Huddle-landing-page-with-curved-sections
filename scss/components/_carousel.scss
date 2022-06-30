@@ -1,22 +1,27 @@
 .hero {
-    height: 100vh;
+    height: 65vh;
     display: flex;
     text-align: center;
     justify-content: center;
     overflow: hidden;
 
-    outline: 1px solid red; // TEST
-
     .hero-content {
         display: flex;
         gap: 1.5em;
         flex-direction: column;
-        outline: 1px solid red; // TEST
         position: relative;
         top: 20%;
 
         .hero-title {
-            font-size: 3em;
+            font-size: 3em;       
+        }
+
+        .hero-subtitle {
+            margin: 0 auto;
+            max-width: 40%;
+            font-size: 1.2rem;
+            line-height: 1.5em;
+
         }
     }
 }
