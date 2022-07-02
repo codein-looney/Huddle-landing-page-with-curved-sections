@@ -32,9 +32,9 @@ h6 {
 .hero-btn {
   margin: 1.2em auto;
   width: 27%;
-  padding: 1.3em;
+  padding: 1.2em;
   border-radius: 2.5em;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: white;
   border: none;
   background-color: hsl(322deg, 100%, 66%);
@@ -46,8 +46,9 @@ h6 {
 }
 
 .hero {
-  height: 65vh;
+  height: 90vh;
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   overflow: hidden;
@@ -56,8 +57,6 @@ h6 {
   display: flex;
   gap: 1.5em;
   flex-direction: column;
-  position: relative;
-  top: 20%;
 }
 .hero .hero-content .hero-title {
   font-size: 3em;
@@ -67,6 +66,11 @@ h6 {
   max-width: 40%;
   font-size: 1.2rem;
   line-height: 1.5em;
+}
+
+.mockup-content {
+  display: flex;
+  justify-content: center;
 }
 
 header {

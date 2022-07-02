@@ -1,6 +1,7 @@
 .hero {
-    height: 65vh;
+    height: 90vh;
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     overflow: hidden;
@@ -9,8 +10,8 @@
         display: flex;
         gap: 1.5em;
         flex-direction: column;
-        position: relative;
-        top: 20%;
+        // position: relative;
+        // top: 50%;
 
         .hero-title {
             font-size: 3em;       
