@@ -75,6 +75,11 @@ main .mockup-content {
   display: flex;
   flex-direction: column;
 }
+main .mockup-content .stats-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
 
 header {
   height: 20vh;

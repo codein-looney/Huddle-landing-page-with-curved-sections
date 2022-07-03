@@ -4,5 +4,11 @@ main {
     .mockup-content {
         display: flex;
         flex-direction: column;
+
+        .stats-section {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+        }
     }
 }
