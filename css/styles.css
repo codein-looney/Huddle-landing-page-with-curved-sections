@@ -68,9 +68,12 @@ h6 {
   line-height: 1.5em;
 }
 
-.mockup-content {
+main {
+  height: 100vh;
+}
+main .mockup-content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 header {
