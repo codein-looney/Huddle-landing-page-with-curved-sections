@@ -73,29 +73,29 @@ h6 {
   width: 80%;
 }
 
-main .mockup-content {
+main .mockup-section {
   display: flex;
   flex-direction: column;
   gap: 5em;
 }
-main .mockup-content .stats-section {
+main .mockup-section .stats-section {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
-main .mockup-content .stats-section .stats {
+main .mockup-section .stats-section .stats {
   display: flex;
   flex-direction: column;
 }
-main .mockup-content .stats-section .stats .stats-icon {
+main .mockup-section .stats-section .stats .stats-icon {
   width: 2em;
 }
-main .mockup-content .stats-section .stats .stats-content .number {
+main .mockup-section .stats-section .stats .stats-content .number {
   font-weight: 700;
   font-size: 4em;
 }
-main .mockup-content .stats-section .stats .stats-content .occupants {
+main .mockup-section .stats-section .stats .stats-content .occupants {
   color: gray;
 }
 
