@@ -4,26 +4,27 @@ main .mockup-content {
     gap: 5em;
 
     .stats-section {
+        width: 80%;
+        margin: 0 auto;
         display: flex;
-        justify-content: center;
         justify-content: space-around;
 
         .stats {
             display: flex;
             flex-direction: column;
-            gap: 1em;
-            outline: 1px solid red;
 
             .stats-icon {
                 width: 2em;
             }
 
             .stats-content {
-                outline: 1px solid red;
-
                 .number {
                     font-weight: 700;
                     font-size: 4em;
+                }
+
+                .occupants {
+                    color: gray;
                 }
             }
         }
