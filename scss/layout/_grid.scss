@@ -1,14 +1,31 @@
-main {
-    height: 100vh;
+main .mockup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
 
-    .mockup-content {
+    .stats-section {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
 
-        .stats-section {
+        .stats {
             display: flex;
-            justify-content: center;
-            justify-content: space-around;
+            flex-direction: column;
+            gap: 1em;
+            outline: 1px solid red;
+
+            .stats-icon {
+                width: 2em;
+            }
+
+            .stats-content {
+                outline: 1px solid red;
+
+                .number {
+                    font-weight: 700;
+                    font-size: 4em;
+                }
+            }
         }
     }
 }

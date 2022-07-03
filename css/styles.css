@@ -68,17 +68,36 @@ h6 {
   line-height: 1.5em;
 }
 
-main {
-  height: 100vh;
+.mock {
+  margin: 0 auto;
+  width: 80%;
 }
+
 main .mockup-content {
   display: flex;
   flex-direction: column;
+  gap: 5em;
 }
 main .mockup-content .stats-section {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+}
+main .mockup-content .stats-section .stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  outline: 1px solid red;
+}
+main .mockup-content .stats-section .stats .stats-icon {
+  width: 2em;
+}
+main .mockup-content .stats-section .stats .stats-content {
+  outline: 1px solid red;
+}
+main .mockup-content .stats-section .stats .stats-content .number {
+  font-weight: 700;
+  font-size: 4em;
 }
 
 header {
