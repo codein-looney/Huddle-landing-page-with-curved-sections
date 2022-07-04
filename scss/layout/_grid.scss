@@ -1,3 +1,4 @@
+@use '../sass-utils/variables' as *;
 main {
     // height: 200vh;
 
@@ -37,15 +38,25 @@ main {
     }
 
     .grid {
+        margin-top: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
 
         outline: 1px solid red; // REMOVE
 
         .grid-box {
-            width: 70%;
+            width: 100%;
             margin: 0 auto;
             display: flex;
             align-items: center;
             gap: 5em;
+            background: url(/images/bg-section-top-desktop-1.svg), url(/images/bg-section-bottom-desktop-1.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 20% 50%;
+            background-size: cover;
 
             outline: 1px solid red; // REMOVE
 
