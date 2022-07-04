@@ -73,6 +73,13 @@ h6 {
   width: 80%;
 }
 
+.grid-image {
+  width: 100%;
+}
+
+main {
+  outline: 1px solid red;
+}
 main .mockup-section {
   display: flex;
   flex-direction: column;
@@ -97,6 +104,22 @@ main .mockup-section .stats-section .stats .stats-content .number {
 }
 main .mockup-section .stats-section .stats .stats-content .occupants {
   color: gray;
+}
+main .grid {
+  outline: 1px solid red;
+}
+main .grid .grid-box {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 5em;
+  outline: 1px solid red;
+}
+main .grid .grid-box .grid-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 header {
