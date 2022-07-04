@@ -42,21 +42,17 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
-
+        height: 85vh;
+        background-image: url("../images/bg-section-bottom-desktop-1.svg"), url("../images/bg-section-top-desktop-2.svg");
+        background-repeat: no-repeat;
         outline: 1px solid red; // REMOVE
 
         .grid-box {
-            width: 100%;
+            width: 70%;
             margin: 0 auto;
             display: flex;
             align-items: center;
             gap: 5em;
-            background: url(/images/bg-section-top-desktop-1.svg), url(/images/bg-section-bottom-desktop-1.svg);
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: 20% 50%;
-            background-size: cover;
 
             outline: 1px solid red; // REMOVE
 
